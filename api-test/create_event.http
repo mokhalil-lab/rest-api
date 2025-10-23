@@ -1,9 +1,10 @@
 POST http://localhost:8080/events
 Content-Type: "application/json"
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiZXhwIjoxNzYxMjExNDY2LCJpZCI6MX0.aXl4j6ajfDFOITZMZSN_J5y8NZelgeyEvWGMV6VOouc
 
 {
-    "name": "test event",
-    "description": "event description",
-    "location": "cairo,egypt",
+    "name": "event 1",
+    "description": "event description 1",
+    "location": "alex,egypt",
     "date": "2025-01-01T15:30:00.000Z"
 }
